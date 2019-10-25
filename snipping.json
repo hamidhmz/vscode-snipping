@@ -47,8 +47,8 @@
 		"prefix": "iferr",
 		"body": [
 			"if(${1:error}){",
-			"logger.error(${1:error})",
-			"${2:// return or response 500} ",
+			"    logger.error(${1:error})",
+			"    ${2:// return or response 500} ",
 			"}"
 		],
 		"description": "if for error"
